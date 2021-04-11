@@ -36,10 +36,11 @@ jobs:
         if: matrix.os == 'ubuntu-latest'
         run: |
           sudo dpkg -i covscript-amd64.deb
-          mkdir build & cd build
+          mkdir build
+          cd build
           cmake ..
           make -j8
-          cd .. & cspkg build https://github.com/covscript/package-example/releases/download/ubuntu-schedule/ . --flat
+          cspkg build https://github.com/covscript/package-example/releases/download/ubuntu-schedule/ .. --flat
       
       # Setup CovScript SDK on Windows
       - name: Download MinGW-w64
