@@ -1,0 +1,9 @@
+{
+    "Type": "Extension",
+    "Name": "testcse",
+    "Info": "Package Example: CSE",
+    "Author": "Covariant Script Organization",
+    "Version": "1.0.0",
+    "Target": "build/testcse.cse",
+    "Dependencies": []
+}

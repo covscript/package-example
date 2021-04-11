@@ -1,0 +1,11 @@
+import testcse
+
+package testcsp
+
+function run_test()
+    testcse.hello()
+    system.out.println(testcse.sum(1, 2))
+    var str = "TestCSP"
+    testcse.modify(str)
+    system.out.println(str)
+end
