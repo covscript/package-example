@@ -1,5 +1,5 @@
 {
-    "base_url": "https://raw.githubusercontent.com/covscript/package-example/main/cspkg-source",
+    "base_url": "https://raw.githubusercontent.com/covscript/package-example/main/cspkg-source/",
     "universal": "universal.json",
     "windows": {
         "x86_64": "windows_x86_64.json"
