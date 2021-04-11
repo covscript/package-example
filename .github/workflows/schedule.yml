@@ -76,7 +76,6 @@ jobs:
         if: matrix.os == 'windows-latest'
         run: |
           .github/workflows/build.bat
-          cspkg build https://github.com/covscript/package-example/releases/download/windows-schedule/ . --flat
           
       # Run tests
       - name: Run tests on Ubuntu
