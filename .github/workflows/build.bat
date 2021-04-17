@@ -9,4 +9,4 @@ cd build
 cmake -G "MinGW Makefiles" ..
 mingw32-make -j8
 cd ..
-cspkg build https://github.com/covscript/package-example/releases/download/windows-schedule/ . --flat
+cspkg build . --release https://github.com/covscript/package-example/releases/download/windows-schedule/ --flat

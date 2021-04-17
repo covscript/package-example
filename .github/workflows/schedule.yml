@@ -40,7 +40,7 @@ jobs:
           cd build
           cmake ..
           make -j8
-          cspkg build https://github.com/covscript/package-example/releases/download/ubuntu-schedule/ .. --flat
+          cspkg build .. --release https://github.com/covscript/package-example/releases/download/ubuntu-schedule/ --flat
       
       # Setup CovScript SDK on Windows
       - name: Download MinGW-w64
